@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>title</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0px;
+            font-family: "경기천년제목 Medium";
+            /*            background-color: black;*/
+        }
+
+        table {
+            border-spacing: 10px;
+            color: white;
+            padding-left: 30%;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 20%;
+            background-color: #000000;
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: #fcf;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: #fff;
+            color: black;
+            font-weight: bold;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <article>
+            <nav>
+                <ul>
+                    <li><a class="active" href="">전체보기</a></li>
+                    <li><a href="#first">고기</a></li>
+                    <li><a href="#snack">분식</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </article>
+        <article>
+            <table border="0" style="width: 100% height:100%">
+                <tr id="first">
+                    <td width=300px height=300px><img src="../images/dongjuk.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>동적불고기</h1>
+                        주소 : 서울 도봉구 도봉로109길 30<p>
+                            대표 메뉴<p>
+                                양념소갈비살 ---------- 29,000원 (best)<br>
+                                한우불고기 ------------ 18,000원<br>
+                                제주생오겹살 ---------- 12,000원
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px><img src="../images/bonto.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>본토갈비</h1>
+                        주소 : 서울 도봉구 도봉로 755<p>
+                            대표 메뉴<p>
+                                무한리필(삼겹살 목살 양념갈비 닭갈비) ----------- 9,900원<br>
+                                소갈비살(150g) ---------------------------------- 7,000원<br> 
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px><img src="../images/hanam.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>하남돼지집 쌍문응팔점</h1>
+                        주소 : 서울 도봉구 도봉로 458<p>
+                            대표 메뉴<p>
+                                생삼겹살(180g) ------------- 13,000원<br>
+                                특목살(180g) --------------- 13,000원<br>
+                                생갈비(200g) --------------- 13,000원<br>
+                                갈매기살(150g) ------------- 13,000원<br>
+                                항정살(150g) --------------- 14,000원<br>
+                    </td>
+                </tr>
+                <tr id="snack">
+                    <td width=300px height=300px><img src="../images/hoho.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>호호분식</h1>
+                        주소 : 서울 도봉구 쌍문동 81-74<p>
+                            대표 메뉴<p>
+                                치즈밥 대 ------------- 4,000원<br>
+                                치즈밥 소 ------------- 3,000원<br>
+                                우동 ------------------ 3,500원<br>
+                                라면 ------------------ 3,000원<br>
+                                쫄면 ------------------ 2,500원<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px><img src="../images/yubgi.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>동대문엽기떡볶이 쌍문점</h1>
+                        주소 : 서울 도봉구 시루봉로 70<p>
+                            대표 메뉴<p>
+                                엽기떡볶이 ---------------- 14,000원<br>
+                                엽기오뎅 ------------------ 14,000원<br>
+                                엽기반반 ------------------ 14,000원<br>
+                                2인떡볶이 ----------------- 9,000원<br>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </article>
+    </section>
+</body>
+
+</html>

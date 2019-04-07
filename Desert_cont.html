@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>title</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0px;
+            font-family: "경기천년제목 Medium"
+            /*            background-color: black;*/
+        }
+
+        table {
+            border-spacing: 10px;
+            color: white;
+            padding-left: 30%;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 20%;
+            background-color: #000000;
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: #fcf;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: #fff;
+            color: black;
+            font-weight: bold;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <article>
+            <nav>
+                <ul>
+                    <li><a class="active" href="">전체보기</a></li>
+                    <li><a href="#susi">스시</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </article>
+        <article>
+            <table border="0" style="width: 100% height:100%">
+                <tr id="first">
+                    <td width=300px height=300px>
+                        <img src="../images/tiramisu.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>망원동티라미수 </h1>
+                        주소 : 서울 도봉구 도봉로109길 11<p>
+                            영업시간 : 매일 11:00 - 23:00 명절당일 휴무<p>
+                                대표 메뉴<p>
+                                    오리지널티라미수 ---------------- 4,900원<br>
+                                    딸기티라미수 -------------- 5,900원<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px>
+                        <img src="../images/merang.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>마이머랭</h1>
+                        주소 : 서울 도봉구 노해로60길 84<p>
+                            영업시간 : 목요일 12:00 - 15:00소진 시 마감 (인스타공지)<br>
+토요일 12:00 - 15:00소진 시 마감 (인스타공지)<br>
+화요일 12:00 - 15:00소진 시 마감 (인스타공지)<p>
+                                대표 메뉴<p>
+                                    마카롱 ---------------- 1,800원<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px>
+                        <img src="../images/ramen.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>멘야산다이메</h1>
+                        주소 : 서울 도봉구 쌍문동 100-2<p>
+                            영업시간 : 매일 11:30 - 21:00 라스트 오더 20:50<p>
+                                대표 메뉴<p>
+                                    돈코츠라멘 ---------------- 7,500원<br>
+                                    카라구치라멘 -------------- 8,000원<br>
+                                    쿠로라멘 ------------------ 8,000원<br>
+                                    츠케멘 -------------------- 8,500원<br>
+                                    교자 ---------------------- 3,000원<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px>
+                        <img src="../images/ramen.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>멘야산다이메</h1>
+                        주소 : 서울 도봉구 쌍문동 100-2<p>
+                            영업시간 : 매일 11:30 - 21:00 라스트 오더 20:50<p>
+                                대표 메뉴<p>
+                                    돈코츠라멘 ---------------- 7,500원<br>
+                                    카라구치라멘 -------------- 8,000원<br>
+                                    쿠로라멘 ------------------ 8,000원<br>
+                                    츠케멘 -------------------- 8,500원<br>
+                                    교자 ---------------------- 3,000원<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px>
+                        <img src="../images/ramen.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>멘야산다이메</h1>
+                        주소 : 서울 도봉구 쌍문동 100-2<p>
+                            영업시간 : 매일 11:30 - 21:00 라스트 오더 20:50<p>
+                                대표 메뉴<p>
+                                    돈코츠라멘 ---------------- 7,500원<br>
+                                    카라구치라멘 -------------- 8,000원<br>
+                                    쿠로라멘 ------------------ 8,000원<br>
+                                    츠케멘 -------------------- 8,500원<br>
+                                    교자 ---------------------- 3,000원<br>
+                    </td>
+                </tr>
+                <tr id="susi">
+                    <td width=300px height=300px>
+                        <img src="../images/susi.JPG" width=300px height=300px></td>
+                    <td id="content" class="3">
+                        <h1>스시혼</h1>
+                        주소 : 서울 도봉구 도봉로110길 8<p>
+                            영업시간 : 매일 11:30 - 21:30Break time 15:00~17:00
+                            <br>월요일 휴무<p>
+                                대표 메뉴<p>
+                                    스시혼 정식 2인 --------- 50,000원<br>
+                                    모둠초밥 ---------------- 11,000원<br>
+                                    특선모둠초밥 ------------ 14,000원<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px>
+                        <img src="../images/ramen.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>멘야산다이메</h1>
+                        주소 : 서울 도봉구 쌍문동 100-2<p>
+                            영업시간 : 매일 11:30 - 21:00 라스트 오더 20:50<p>
+                                대표 메뉴<p>
+                                    돈코츠라멘 ---------------- 7,500원<br>
+                                    카라구치라멘 -------------- 8,000원<br>
+                                    쿠로라멘 ------------------ 8,000원<br>
+                                    츠케멘 -------------------- 8,500원<br>
+                                    교자 ---------------------- 3,000원<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px>
+                        <img src="../images/ramen.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>멘야산다이메</h1>
+                        주소 : 서울 도봉구 쌍문동 100-2<p>
+                            영업시간 : 매일 11:30 - 21:00 라스트 오더 20:50<p>
+                                대표 메뉴<p>
+                                    돈코츠라멘 ---------------- 7,500원<br>
+                                    카라구치라멘 -------------- 8,000원<br>
+                                    쿠로라멘 ------------------ 8,000원<br>
+                                    츠케멘 -------------------- 8,500원<br>
+                                    교자 ---------------------- 3,000원<br>
+                    </td>
+                </tr>
+            </table>
+        </article>
+    </section>
+</body>
+
+</html>

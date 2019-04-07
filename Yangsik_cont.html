@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>title</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0px;
+            font-family: "경기천년제목 Medium"
+            /*            background-color: black;*/
+        }
+
+        table {
+            border-spacing: 10px;
+            color: white;
+            padding-left: 30%;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 20%;
+            background-color: #000000;
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: #fcf;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: #fff;
+            color: black;
+            font-weight: bold;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <article>
+            <nav>
+                <ul>
+                    <li><a class="active" href="first">전체보기</a></li>
+                    <li><a href="#first">스테이크 &amp; 파스타</a></li>
+                    <li><a href="#buger">햄버거</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </article>
+        <article>
+            <table border="0" style="width: 100% height:100%">
+                <tr id="first">
+                    <td width=300px height=300px>
+                        <img src="../images/ssangmun.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>쌍문역 파스타</h1>
+                        주소 : 서울 도봉구 도봉로110길 39-16<p>
+                            영업시간 : 매일 11:30 - 22:00브레이크타임 3-4시(마지막주문 2시30분)<p>
+                                대표 메뉴<p>
+                                    새우 알리오 --------------- 6,000<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px>
+                        <img src="../images/normar.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>노말키친</h1>
+                        주소 : 서울 도봉구 도봉로114길 29<p>
+                            영업시간 : 평일 15:00 - 17:00브레이크타임주말 14:00 - 16:00브레이크타임<p>
+                                대표 메뉴<p>
+                                    함박스테이크 -------------- 9,500원<br>
+                                    치킨스테이크덮밥 ----------- 7,000원<br>
+                                    삼겹살스테이크덮밥 --------- 7,500원<br>
+                                    삼겹살스테이크파스타 ------- 9,500원<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td width=300px height=300px>
+                        <img src="../images/gompa.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>곰파곰파의 뜨라또리아</h1>
+                        주소 : 서울 도봉구 노해로60길 65<p>
+                            영업시간 : 수요일 휴무매주 수요일과 매달 네번째 화요일 휴무평일 11:30 - 21:30런치2시/ 디너8시30분 주문마감
+매일 15:00 - 17:00평일3~5시 토,일 3시30분~4시30분 브레이크타임토요일 11:30 - 21:30런치2시30분/ 디너8시30분 주문마감
+일요일 12:00 - 21:30런치2시30분/ 디너8시30분 주문마감 오더 20:50<p>
+                                대표 메뉴<p>
+                                    살치살스테이크220g ---------------- 24,000<br>
+                                    팔라피자 -------------- 8,500원<br>
+                                    파스타 ------------------ 10,000원<br>
+                    </td>
+                </tr>
+                <tr id="buger">
+                    <td width=300px height=300px>
+                        <img src="../images/double.jpg" width=300px height=300px></td>
+                    <td id="content">
+                        <h1>더블도어</h1>
+                        주소 : 서울 도봉구 우이천로 354<p>
+                            영업시간 : 평일 11:00 - 22:00마지막 주문 9 : 30 일요일 휴무<p>
+                                대표 메뉴<p>
+                                    시그니쳐 --------------------- 6,500원<br>
+                                    알로하버거 ------------------ 7,500원<br>
+                                    버핏 하이파이브 버거 --------- 7,500원<br>
+                                    돈 터치 버거 ----------------- 8,500원<br>
+                    </td>
+                </tr>
+            </table>
+        </article>
+    </section>
+</body>
+
+</html>

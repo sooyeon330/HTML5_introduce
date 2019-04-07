@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>쌍문동 맛집소개2</title>
+    <style>
+        html, body {
+            height: 100%;
+            background-color: lightslategrey;
+            background-image: url(../images/main2.png);
+            background-position: top;
+            margin: 0px;
+            /*            background-repeat: no-repeat;*/
+        }
+
+        header {}
+
+        fooder {}
+
+        #foot {
+            width: 100%;
+            height: 100px;
+            color: white;
+            background-color: black;
+            position: fixed;
+        }
+
+        button {
+            width: 100px;
+            height: 40px;
+            margin: 10px;
+            color: red;
+            font-weight: bold;
+            background-color: ghostwhite;
+            border: 3px solid pink;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            z-index: 3;
+        }
+
+        button:hover {
+            width: 100px;
+            height: 40px;
+            margin: 10px;
+            color: red;
+            font-weight: bold;
+            background-color: ghostwhite;
+            border: 0px solid pink;
+            box-shadow: 0px 0px 20px 10px rgba(255, 77, 210, 0.3);
+        }
+
+        #btn {
+            margin-top: 190px;
+            margin-bottom: 20px;
+            background-color: black;
+            opacity: 0.7;
+            border-top: 5px solid white;
+            border-bottom: 5px solid white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 70%;
+            background-color: #000000;
+            height: 650px;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: #fcf;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: #fff;
+            color: black;
+            font-weight: bold;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+
+        #frame {
+            /*            float: right;*/
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table width=100% align="center">
+            <tr>
+                <td colspan="2">
+                    <header>
+                        <div id="btn" align="center">
+                            <button value="분식" onclick="test.location.href='content_frame.html'">한식</button>
+                            <button value="분식" onclick="">분식</button>
+                            <button value="분식" onclick="">양식</button>
+                            <button value="일식" onclick="test.location.href='ilsik_cont2.html'">일식</button>
+                            <button value="디저트" onclick="test.location.href='ilsik_cont2.html'">디저트</button>
+                        </div>
+                    </header>
+                </td>
+            </tr>
+            <tr>
+                <td width=25% height=100%>
+                    <nav>
+                        <ul>
+                            <li><a class="active" href="#home">전체보기</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#about">About</a></li>
+                        </ul>
+                    </nav>
+                </td>
+                <td>
+                    <section>
+                        <article>
+                            <iframe id="frame" name="test" width=70% height=600 src="content_frame.html" frameborder="0" scrolling="yes"></iframe>
+                        </article>
+                    </section>
+                </td>
+            </tr>
+            <footer>
+                <!--
+            <div id="foot">가나다라마바사
+            </div>
+-->
+            </footer>
+        </table>
+    </center>
+</body>
+
+</html>
